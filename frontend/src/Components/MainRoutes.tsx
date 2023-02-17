@@ -12,7 +12,7 @@ export default class MainRoutes extends React.Component<IProps, IState> {
         return (
             <Router basename="/">
                 <Routes>
-                    <Route path="home" element={<Home />} />
+                    <Route path="" element={<Home />} />
                 </Routes>
             </Router>
         );
