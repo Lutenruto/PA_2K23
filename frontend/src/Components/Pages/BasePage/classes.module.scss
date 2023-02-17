@@ -1,0 +1,7 @@
+.root {
+    margin-top: 64px;
+
+    @media screen and (max-width: 1200px) {
+        margin-top: 32px;
+    }
+}
